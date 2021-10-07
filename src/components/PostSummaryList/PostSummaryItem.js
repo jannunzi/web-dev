@@ -21,7 +21,7 @@ const PostSummaryItem = (post) => {
                     <div className="fw-bold">{post.title}</div>
                 </div>
                 <div className="col-3 col-md-2">
-                    <img src="${post.image}"
+                    <img src={post.image}
                          width="85"
                          height="85"
                          className="float-end"
