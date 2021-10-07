@@ -19,3 +19,5 @@ const ExploreScreen = () => {
         </div>
     )
 }
+
+export default ExploreScreen;
