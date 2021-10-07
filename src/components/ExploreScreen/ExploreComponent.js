@@ -2,7 +2,7 @@ import React from "react";
 import PostSummaryList from "../PostSummaryList";
 
 const ExploreComponent = () => {
-    return(`
+    return(
             <div class="row">
                 <div class="col-11" style="position: relative">
                     <i class="fa fa-search position-absolute"
@@ -47,6 +47,6 @@ const ExploreComponent = () => {
                 <h2 class="fw-bold ms-2 text-light position-absolute bottom-0">SpaceX's Starship</h2>
             </div>
             ${PostSummaryList()}
-    `);
+    );
 }
 export default ExploreComponent;
