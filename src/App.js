@@ -8,10 +8,12 @@ import WhoToFollowList from "./components/WhoToFollowList";
 import PostSummaryItem from "./components/PostSummaryList/PostSummaryItem";
 import PostSummaryList from "./components/PostSummaryList";
 import ExploreComponent from "./components/ExploreScreen/ExploreComponent";
+import ExploreScreen from "./components/ExploreScreen";
 
 function App() {
   return (
     <div className="container">
+        <ExploreScreen/>
         <NavigationSidebar active="home"/>
         <WhoToFollowList/>
         <PostSummaryList/>
