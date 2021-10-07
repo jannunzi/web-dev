@@ -1,6 +1,9 @@
 import React from "react";
 
-const NavigationSidebar = ({active}) => {
+const NavigationSidebar = (
+    {
+        active = 'explore'
+    }) => {
     return(
         <>
             <div className="list-group">
