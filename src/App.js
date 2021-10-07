@@ -11,11 +11,6 @@ function App() {
     <div className="container">
         <NavigationSidebar active="home"/>
         <WhoToFollowList/>
-        <WhoToFollowListItem who={{
-            avatarIcon: '../../../images/virgin.png',
-            userName: 'Virgin Galactic',
-            handle: 'virgingalactic',
-        }}/>
     </div>
   );
 }
