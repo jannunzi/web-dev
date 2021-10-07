@@ -1,6 +1,5 @@
 import React from "react";
 import PostSummaryList from "../PostSummaryList";
-import PostSummaryItem from "../PostSummaryList/PostSummaryItem";
 
 const ExploreComponent = () => {
     return(
@@ -48,7 +47,7 @@ const ExploreComponent = () => {
                 <img src="../../../images/Starship-Mk1-Day.jpg" width="100%"/>
                 <h2 className="fw-bold ms-2 text-light position-absolute bottom-0">SpaceX's Starship</h2>
             </div>
-            <PostSummaryItem/>
+            <PostSummaryList/>
         </>
     );
 }
