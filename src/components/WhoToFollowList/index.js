@@ -1,5 +1,5 @@
 import React from "react";
-import WhoToFollowListItem from "./WhoToFollowListItem.js";
+import WhoToFollowListItem from "./WhoToFollowListItem";
 import who from "./who.js"
 
 const WhoToFollowList = () => {
@@ -8,11 +8,13 @@ const WhoToFollowList = () => {
             <li class="list-group-item fw-bold">
                 Who to follow
             </li>
-        ${who.map(who => {
-            return(
-                WhoToFollowListItem(who)
-            );
-        }).join('')}
+            {
+                who.map(who => {
+                    return(
+                        <WhoToFollowListItem who={who}/>
+                    );
+                })
+            }
         </ul>
     );
 }
