@@ -8,7 +8,7 @@ import WhoToFollowListItem
 function App() {
   return (
     <div className="container">
-        <NavigationSidebar/>
+        <NavigationSidebar active="home"/>
         <WhoToFollowListItem who={{
             avatarIcon: '../../../images/virgin.png',
             userName: 'Virgin Galactic',
