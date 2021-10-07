@@ -9,7 +9,7 @@ const PostSummaryItem = (post) => {
                     <div>
                         <span className="fw-bold">
                             {post.userName}
-                            <span className="fa-stack" style="font-size: 0.5em">
+                            <span className="fa-stack" style={{"font-size": "0.5em"}}>
                               <i className="fas fa-circle fa-stack-2x"></i>
                               <i className="fas fa-check fa-stack-1x fa-inverse"></i>
                             </span>
@@ -25,7 +25,7 @@ const PostSummaryItem = (post) => {
                          width="85"
                          height="85"
                          className="float-end"
-                         style="border-radius: 10px"/>
+                         style={{"border-radius" : "10px"}}/>
                 </div>
             </div>
         </li>
