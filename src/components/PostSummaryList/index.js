@@ -10,7 +10,7 @@ const PostSummaryList = () => {
                     return (
                         <PostSummaryItem post={post}/>
                     );
-                }).join('')
+                })
             }
         </ul>
     );
