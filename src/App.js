@@ -12,7 +12,14 @@ function App() {
     <div className="container">
         <NavigationSidebar active="home"/>
         <WhoToFollowList/>
-        <PostSummaryItem/>
+        <PostSummaryItem post={{
+            "topic": "",
+            "userName": "JavaScript",
+            "time": "1 day",
+            "title": "JavaScript is programming language that can run on browsers as well as desktops",
+            "image": "../../../images/js.png",
+            "tweets": "123K"
+        }}/>
     </div>
   );
 }
