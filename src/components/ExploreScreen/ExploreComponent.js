@@ -1,3 +1,4 @@
+import React from "react";
 import PostSummaryList from "../PostSummaryList";
 
 const ExploreComponent = () => {
