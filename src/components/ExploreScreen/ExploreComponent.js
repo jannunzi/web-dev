@@ -5,9 +5,9 @@ const ExploreComponent = () => {
     return(
         <>
             <div className="row">
-                <div className="col-11" style="position: relative">
+                <div className="col-11" style={{"position": "relative"}}>
                     <i className="fa fa-search position-absolute"
-                       style="left: 25px; top: 11px"></i>
+                       style={{"left": "25px", "top": "11px"}}></i>
                     <input placeholder="Search Twitter" className="ps-5 form-control rounded-pill mb-2 col-11"/>
                 </div>
                 <div className="col-1">
