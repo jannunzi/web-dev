@@ -1,8 +1,9 @@
+import React from "react";
 import WhoToFollowListItem from "./WhoToFollowListItem.js";
 import who from "./who.js"
 
 const WhoToFollowList = () => {
-    return (`
+    return (
         <ul class="list-group">
             <li class="list-group-item fw-bold">
                 Who to follow
@@ -13,7 +14,7 @@ const WhoToFollowList = () => {
             );
         }).join('')}
         </ul>
-    `);
+    );
 }
 
 export default WhoToFollowList;
