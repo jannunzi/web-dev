@@ -9,7 +9,11 @@ function App() {
   return (
     <div className="container">
         <NavigationSidebar/>
-        <WhoToFollowListItem/>
+        <WhoToFollowListItem who={{
+            avatarIcon: '../../../images/virgin.png',
+            userName: 'Virgin Galactic',
+            handle: 'virgingalactic',
+        }}/>
     </div>
   );
 }
