@@ -2,29 +2,29 @@ import React from "react";
 
 const PostSummaryItem = (post) => {
     return(
-        <li class="list-group-item">
-            <div class="row">
-                <div class="col-9 col-md-10">
-                    <div class="text-muted">${post.topic}</div>
+        <li className="list-group-item">
+            <div className="row">
+                <div className="col-9 col-md-10">
+                    <div className="text-muted">${post.topic}</div>
                     <div>
-                        <span class="fw-bold">
+                        <span className="fw-bold">
                             ${post.userName}
-                            <span class="fa-stack" style="font-size: 0.5em">
-                              <i class="fas fa-circle fa-stack-2x"></i>
-                              <i class="fas fa-check fa-stack-1x fa-inverse"></i>
+                            <span className="fa-stack" style="font-size: 0.5em">
+                              <i className="fas fa-circle fa-stack-2x"></i>
+                              <i className="fas fa-check fa-stack-1x fa-inverse"></i>
                             </span>
                         </span>
-                        <span class="text-muted">
+                        <span className="text-muted">
                             - ${post.time}
                         </span>
                     </div>
-                    <div class="fw-bold">${post.title}</div>
+                    <div className="fw-bold">${post.title}</div>
                 </div>
-                <div class="col-3 col-md-2">
+                <div className="col-3 col-md-2">
                     <img src="${post.image}"
                          width="85"
                          height="85"
-                         class="float-end"
+                         className="float-end"
                          style="border-radius: 10px"/>
                 </div>
             </div>
