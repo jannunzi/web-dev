@@ -7,6 +7,7 @@ import WhoToFollowListItem
 import WhoToFollowList from "./components/WhoToFollowList";
 import PostSummaryItem from "./components/PostSummaryList/PostSummaryItem";
 import PostSummaryList from "./components/PostSummaryList";
+import ExploreComponent from "./components/ExploreScreen/ExploreComponent";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <NavigationSidebar active="home"/>
         <WhoToFollowList/>
         <PostSummaryList/>
+        <ExploreComponent/>
     </div>
   );
 }
