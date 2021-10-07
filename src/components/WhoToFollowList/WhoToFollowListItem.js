@@ -1,7 +1,7 @@
 import React from "react";
 
 const WhoToFollowListItem = (who) => {
-    return(`
+    return(
         <li class="list-group-item">
             <div class="row">
                 <div class="col-2">
@@ -21,7 +21,7 @@ const WhoToFollowListItem = (who) => {
                 </div>
             </div>
         </li>
-    `);
+    );
 }
 
 export default WhoToFollowListItem;
