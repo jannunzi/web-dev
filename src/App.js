@@ -14,10 +14,6 @@ function App() {
   return (
     <div className="container">
         <ExploreScreen/>
-        <NavigationSidebar active="home"/>
-        <WhoToFollowList/>
-        <PostSummaryList/>
-        <ExploreComponent/>
     </div>
   );
 }
