@@ -1,6 +1,6 @@
 import React from "react";
 
-const WhoToFollowListItem = (who) => {
+const WhoToFollowListItem = ({who}) => {
     return(
         <li className="list-group-item">
             <div className="row">
