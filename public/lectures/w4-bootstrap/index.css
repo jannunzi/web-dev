@@ -1,0 +1,37 @@
+.form-control {
+    background-color: #aaf;
+}
+
+.list-group-item.active {
+    background-color: #0dfd41;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+    body {
+        background-color: yellow;
+    }
+    .media-query {
+        background-color: red;
+        color: white;
+    }
+}
+@media (min-width: 600px) and (max-width: 1000px) {
+    body {
+        background-color: blue;
+        color: white;
+    }
+    .media-query {
+        background-color: yellow;
+        color: black;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+    body {
+        background-color: red;
+        color: white;
+    }
+    .media-query {
+        background-color: blue;
+        color: white;
+    }
+}

@@ -1,0 +1,98 @@
+.wd-magnifying-glass {
+    position: absolute;
+    left: 14px;
+}
+
+.wd-configuration {
+    color: blue;
+}
+
+.wd-search-twitter {
+    color: white;
+    background-color: darkgray;
+    border-radius: 25px;
+    border-style: none;
+    padding: 5px;
+    padding-left: 30px;
+}
+
+.pos-fixed {
+    position: fixed;
+    right: 0px;
+    bottom: 50%;
+}
+.dimension-square {
+    width: 100px;
+    height: 100px;
+}
+.bg-color-blue {
+    background-color: blue;
+}
+.fg-color-black { color: black; }
+.fg-color-white { color: white; }
+.fg-color-blue { color: #7070ff; }
+.fg-color-red { color: #ff7070; }
+.fg-color-green { color: green; }
+
+.selector-11 .selector-3 {
+    background-color: red;
+    color: white;
+}
+.selector-2 > .selector-33 > .selector-4 {
+    background-color: yellow;
+    color: #d21e1e;
+}
+
+
+.class-selector-1 {
+    background-color: yellow;
+    color: blue;
+}
+
+.class-selector-2 {
+    background-color: blue;
+    color: yellow;
+}
+
+#id-selector-1 {
+    background-color: green;
+    color: white;
+}
+
+p#id-selector-2 {
+    background-color: red;
+    color: white;
+}
+
+
+.jga-container {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+
+    display: flex;
+}
+
+.jga-container > .jga-box {
+    flex-basis: 100%;
+}
+
+.jga-box {
+    border: 5px gray solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+.jga-box1 {
+    background-color: yellow;
+}
+
+.jga-box2 {
+    background-color: blue;
+    color: white;
+}
+
+.jga-box3 {
+    background-color: red;
+    color: white;
+}
