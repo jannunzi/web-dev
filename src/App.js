@@ -3,7 +3,6 @@ import './vendors/bootstrap/bootstrap.min.css';
 import './vendors/fontawesome/css/all.min.css';
 import HelloWorld from "./components/HelloWorld";
 import Practice from "./components/Practice";
-import Build from "./components/Build";
 import {BrowserRouter, Route} from "react-router-dom";
 import HomeScreen from "./components/Build/HomeScreen";
 import ExploreScreen from "./components/Build/ExploreScreen";

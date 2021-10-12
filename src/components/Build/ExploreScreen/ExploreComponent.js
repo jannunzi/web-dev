@@ -45,7 +45,7 @@ const ExploreComponent = () => {
                 </li>
             </ul>
             <div className="position-relative mb-2">
-                <img src="../../../images/Starship-Mk1-Day.jpg" width="100%"/>
+                <img alt="whatever" src="../../../images/Starship-Mk1-Day.jpg" width="100%"/>
                 <h2 style={{color: 'white'}} className="fw-bold ms-2 position-absolute bottom-0">
                     SpaceX's Starship</h2>
             </div>
