@@ -5,6 +5,8 @@ import HelloWorld from "./components/HelloWorld";
 import Practice from "./components/Practice";
 import Build from "./components/Build";
 import {BrowserRouter, Route} from "react-router-dom";
+import HomeScreen from "./components/Build/HomeScreen";
+import ExploreScreen from "./components/Build/ExploreScreen";
 function App() {
   return (
       <BrowserRouter>
@@ -15,9 +17,8 @@ function App() {
               <Route path={["/", "/practice"]} exact={true}>
                   <Practice/>
               </Route>
-              <Route path="/build" exact={true}>
-                  <Build/>
-              </Route>
+              <Route path="/twitter/home" component={HomeScreen}/>
+              <Route path="/twitter/explore" component={ExploreScreen}/>
           </div>
       </BrowserRouter>
   );
