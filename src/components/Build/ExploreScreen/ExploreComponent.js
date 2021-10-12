@@ -8,7 +8,8 @@ const ExploreComponent = () => {
                 <div className="col-11" style={{"position": "relative"}}>
                     <i className="fa fa-search position-absolute"
                        style={{"left": "25px", "top": "11px"}}></i>
-                    <input placeholder="Search Twitter" className="ps-5 form-control rounded-pill mb-2 col-11"/>
+                    <input placeholder="Search Twitter"
+                           className="ps-5 form-control rounded-pill mb-2 col-11"/>
                 </div>
                 <div className="col-1">
                     <a href="setting.html">
@@ -45,7 +46,8 @@ const ExploreComponent = () => {
             </ul>
             <div className="position-relative mb-2">
                 <img src="../../../images/Starship-Mk1-Day.jpg" width="100%"/>
-                <h2 className="fw-bold ms-2 text-light position-absolute bottom-0">SpaceX's Starship</h2>
+                <h2 style={{color: 'white'}} className="fw-bold ms-2 position-absolute bottom-0">
+                    SpaceX's Starship</h2>
             </div>
             <PostSummaryList/>
         </>

@@ -1,21 +1,25 @@
-import logo from './logo.svg';
 import './vendors/bootstrap/css/bootstrap.min.css';
 import './vendors/bootstrap/bootstrap.min.css';
 import './vendors/fontawesome/css/all.min.css';
-import NavigationSidebar from "./components/NavigationSidebar/index";
-import WhoToFollowListItem
-    from "./components/WhoToFollowList/WhoToFollowListItem";
-import WhoToFollowList from "./components/WhoToFollowList";
-import PostSummaryItem from "./components/PostSummaryList/PostSummaryItem";
-import PostSummaryList from "./components/PostSummaryList";
-import ExploreComponent from "./components/ExploreScreen/ExploreComponent";
-import ExploreScreen from "./components/ExploreScreen";
-
+import HelloWorld from "./components/HelloWorld";
+import Practice from "./components/Practice";
+import Build from "./components/Build";
+import {BrowserRouter, Route} from "react-router-dom";
 function App() {
   return (
-    <div className="container">
-        <ExploreScreen/>
-    </div>
+      <BrowserRouter>
+          <div className="container">
+              <Route path="/hello" exact={true}>
+                  <HelloWorld/>
+              </Route>
+              <Route path={["/", "/practice"]} exact={true}>
+                  <Practice/>
+              </Route>
+              <Route path="/build" exact={true}>
+                  <Build/>
+              </Route>
+          </div>
+      </BrowserRouter>
   );
 }
 
