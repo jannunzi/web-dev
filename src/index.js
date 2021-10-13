@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import './index.css';
 import App from './App';
+import HelloWorld from "./hello";
+import Todo from "./components/Todo";
+import todos from './components/todos.json';
+import NavigationExample from "./components/NavigationExample";
+
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  // <React.StrictMode>
-    <App />,
-  // </React.StrictMode>,
+  <NavigationExample/>,
   document.getElementById('root')
 );
 

@@ -1,12 +1,12 @@
 import PostSummaryList from "../PostSummaryList/index.js";
 
 const ExploreComponent = () => {
-    return(`
+  return (`
             <div class="row">
-                <div class="col-11" style="position: relative">
-                    <i class="fa fa-search position-absolute"
-                       style="left: 25px; top: 11px"></i>
-                    <input placeholder="Search Twitter" class="ps-5 form-control rounded-pill mb-2 col-11"/>
+              <div class="col-11" style="position: relative">
+                <i class="fa fa-search position-absolute"
+                   style="left: 25px; top: 11px"></i>
+                <input placeholder="Search Twitter" class="ps-5 form-control rounded-pill mb-2 col-11"/>
                 </div>
                 <div class="col-1">
                     <a href="setting.html">
