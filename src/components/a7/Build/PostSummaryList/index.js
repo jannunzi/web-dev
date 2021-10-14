@@ -2,7 +2,7 @@ import React from "react";
 import PostSummaryItem from "./PostSummaryItem";
 import {useSelector} from "react-redux";
 
-const selectAllPosts = (state) => state.posts;
+const selectAllPosts = (state) => state.posts.posts;
 
 const PostSummaryList = () => {
     const posts = useSelector(selectAllPosts);

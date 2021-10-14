@@ -6,10 +6,12 @@ import Practice from "./components/a6/Practice";
 import HomeScreen from "./components/a7/Build/HomeScreen";
 import ExploreScreen from "./components/a7/Build/ExploreScreen";
 import posts from "./reducers/posts";
-import {createStore} from "redux";
+import who from "./reducers/who";
+import {combineReducers, createStore} from "redux";
 import {Provider} from "react-redux";
 
-const store = createStore(posts);
+const reducer = combineReducers({posts, who})
+const store = createStore(reducer);
 
 function App() {
   return (
