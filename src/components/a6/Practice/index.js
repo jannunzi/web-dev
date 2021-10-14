@@ -9,10 +9,10 @@ const Practice = () => {
     return(
         <div>
             <h1>Practice</h1>
-            <Link to="/hello">
+            <Link to="/a6/hello">
               Hello
             </Link> |
-            <Link to="/twitter/home">
+            <Link to="/a6/twitter/home">
               Build
             </Link>
             <TodoList/>

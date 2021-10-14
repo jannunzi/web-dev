@@ -6,10 +6,10 @@ const HelloWorld = () => {
       <>
 
         <h1>Hello World!</h1>
-          <Link to="/practice">
+          <Link to="/a6/practice">
               Practice
           </Link> |
-          <Link to="/twitter/home">
+          <Link to="/a6/twitter/home">
               Build
           </Link>
       </>
