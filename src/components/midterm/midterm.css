@@ -1,0 +1,23 @@
+.position-yellow {
+    background-color: yellow;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    padding: 10px;
+    width: 30%;
+    display: none;
+}
+
+#position-blue-id {
+    background-color: green;
+}
+
+.position-blue {
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    margin: 10px;
+    width: 30%;
+    display: none;
+}

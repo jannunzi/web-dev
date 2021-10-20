@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import Navigation from "./components/Navigation";
+import Navigation from "./components/lectures/w6/Navigation";
 
 const HelloWorld = () => {
   return(

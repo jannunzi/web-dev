@@ -1,11 +1,13 @@
 import './vendors/bootstrap/css/bootstrap.min.css';
 import './vendors/bootstrap/bootstrap.min.css';
 import './vendors/fontawesome/css/all.min.css';
-import HelloWorld from "./components/HelloWorld";
+import HelloWorld from "./components/lectures/w6/HelloWorld";
 import Practice from "./components/Practice";
 import {BrowserRouter, Route} from "react-router-dom";
 import HomeScreen from "./components/Build/HomeScreen";
 import ExploreScreen from "./components/Build/ExploreScreen";
+import Todo from "./components/lectures/w6/Todo";
+
 function App() {
   return (
       <BrowserRouter>
@@ -18,6 +20,9 @@ function App() {
               </Route>
               <Route path="/twitter/home" component={HomeScreen}/>
               <Route path="/twitter/explore" component={ExploreScreen}/>
+              <Route path="/lectures/w6/todo">
+                <Todo/>
+              </Route>
           </div>
       </BrowserRouter>
   );
