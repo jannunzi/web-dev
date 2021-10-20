@@ -13,12 +13,12 @@ import WhoToFollowList from "./components/lectures/Build/WhoToFollowList";
 import ExploreScreen from "./components/lectures/Build/ExploreScreen";
 import Add from "./components/Add";
 import Subtract from "./components/Subtract";
-import Radios from "./components/midterm/radios";
+import Review from "./components/midterm/review";
 
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <Radios/>,
+  <Review/>,
   // <Subtract a={7} b={3}/>,
   // <ExploreScreen/>,
   // <NavigationSidebar active="home"/>,

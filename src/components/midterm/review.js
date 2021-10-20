@@ -4,7 +4,7 @@ import math from './math';
 import Spreader from "./spreader";
 import MapFilterFind from "./MapFilterFind";
 
-class Radios extends React.Component {
+class Review extends React.Component {
   render() {
     return (
       <div>
@@ -101,4 +101,4 @@ class Radios extends React.Component {
   }
 }
 
-export default Radios;
+export default Review;
