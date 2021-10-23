@@ -1,9 +1,15 @@
 import React, {useState} from "react";
+import {useDispatch} from "react-redux";
 
 const WhatsHappening = () => {
     let [whatsHappening, setWhatsHappening] = useState('');
+    const dispatch = useDispatch();
     const tweetClickHandler = () => {
-        console.log(whatsHappening);
+        dispatch({type: 'create-tweet',
+            tweet: {
+                tweet: whatsHappening
+            }
+        });
     }
     return(
         <>
