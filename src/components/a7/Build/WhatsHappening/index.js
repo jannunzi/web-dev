@@ -25,6 +25,8 @@ const WhatsHappening = () => {
                                   onChange={(event) => setWhatsHappening(event.target.value)}
                                   className="form-control"
                                   style={{width: "100%", color: "white",
+                                      padding: "0px",
+                                      paddingTop: "15px",
                                       backgroundColor: "black"}}
                                   placeholder="What's happening?"></textarea>
                         <hr/>
