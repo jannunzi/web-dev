@@ -4,7 +4,7 @@ import posts from "./posts.json";
 
 const PostSummaryList = () => {
     return(
-        <ul class="list-group">
+        <ul className="list-group">
             {
                 posts.map(post => {
                     return (
