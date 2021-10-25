@@ -9,7 +9,7 @@ function App() {
   return (
       <BrowserRouter>
           <div className="container">
-              <Route path={["/a7", "/a7/practice"]} exact={true}>
+              <Route path={["/", "/a7", "/a7/practice"]} exact={true}>
                   <Practice/>
               </Route>
               <Route path="/a7/twitter">
