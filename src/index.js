@@ -14,15 +14,13 @@ import ExploreScreen from "./components/lectures/Build/ExploreScreen";
 import Add from "./components/Add";
 import Subtract from "./components/Subtract";
 import Review from "./components/midterm/review";
+import ReduxExamples from "./components/lectures/w8/ReduxExamples";
 
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <Review/>,
-  // <Subtract a={7} b={3}/>,
-  // <ExploreScreen/>,
-  // <NavigationSidebar active="home"/>,
-  // <App/>,
+  <App/>,
+  // <ReduxExamples/>,
   document.getElementById('root')
 );
 
